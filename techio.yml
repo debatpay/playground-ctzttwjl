@@ -3,7 +3,7 @@ plan:
 - title: Welcome to the Sales Tax Calculator module
   statement: markdowns/hello.md
 - title: Given a Gherkin Test
-  statement: mardowns/gherkin.md
+  statement: markdowns/gherkin.md
 projects:
   csharp:
     root: /csharp-project
