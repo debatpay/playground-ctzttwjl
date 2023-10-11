@@ -7,11 +7,11 @@ using System.IO;
 namespace TechIo
 {
     [TestClass]
-    public class UniverseTest
+    public class SalesTaxCalculatorTests
     {
 	private bool shouldShowHint = false;
 	[TestMethod]
-	public void VerifyCountAllStars() 
+	public void VerifyTotalPrice() 
 	{
 		shouldShowHint = true;
 		Assert.AreEqual (105.00m,   SalesTaxCalculatorStub.GetTotalAmount(100.00m, 5));
