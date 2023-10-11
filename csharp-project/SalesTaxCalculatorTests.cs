@@ -14,9 +14,9 @@ namespace TechIo
 	public void VerifyCountAllStars() 
 	{
 		shouldShowHint = true;
-		Assert.AreEqual (6,   UniverseStub.CountAllStars (1, 2, 3));
-		Assert.AreEqual (16,   UniverseStub.CountAllStars (10, 3, 2, 1));
-		Assert.AreEqual (42,   UniverseStub.CountAllStars (20, 20, 2));
+		Assert.AreEqual (105.00m,   SalesTaxCalculatorStub.GetTotalAmount(100.00m, 5));
+		Assert.AreEqual (2.14m,   SalesTaxCalculatorStub.GetTotalAmount(2.00m, 7));
+		Assert.AreEqual (4.26m,   SalesTaxCalculatorStub.GetTotalAmount (4.00m, 6.5m));
 		shouldShowHint = false;
 	}
 
@@ -26,7 +26,7 @@ namespace TechIo
 		if(shouldShowHint)
 		{	
 			// On Failure
-			PrintMessage("Hint 💡", "Did you properly accumulate all stars into 'totalStars'? 🤔");
+			PrintMessage("Hint 💡", "Did you properly divide the tax to get a 0.nn format decimal number? 🤔");
 		} 
 		else
 		{
@@ -43,8 +43,8 @@ namespace TechIo
 			} else {
 				PrintMessage("Kudos 🌟", "Using Linq, your code could have been shorter. Try it!");
 				PrintMessage("Kudos 🌟", "");
-				PrintMessage("Kudos 🌟", "int[] galaxies = {37, 3, 2};");
-				PrintMessage("Kudos 🌟", "int totalStars = galaxies.Sum(); // 42");
+				PrintMessage("Kudos 🌟", "price and rate = (100.00, 5));");
+				PrintMessage("Kudos 🌟", "decimal totalAmount = 100 + 100*.05; // 105.00");
 			}	
 		}
       	}

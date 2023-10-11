@@ -1,7 +1,7 @@
-title: .NET Core C# Project
+title: Sales Tax Calculator
 plan:
-- title: Welcome
-  statement: markdowns/welcome.md
+- title: Welcome to the Sales Tax Calculator module
+  statement: markdowns/hello.md
 projects:
   csharp:
     root: /csharp-project
