@@ -1,5 +1,4 @@
-// { autofold
-﻿using System;
+using System;
 using System.Linq;
 using System.Text;
 
@@ -11,8 +10,8 @@ namespace Answer
 
     public static decimal GetTotalAmount(decimal itemPrice, decimal taxRatePercent)
     {
-			decimal taxRate = taxRatePercent / 100 ; //fix me
-            return itemPrice + itemPrice * taxRate;
+			decimal taxRate = taxRatePercent / 10 ; //fix me
+            return itemPrice + (itemPrice * taxRatePercent); //what?
             
     }
 
