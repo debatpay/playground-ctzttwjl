@@ -1,13 +1,4 @@
-?[# Feature: Login to Merchant Sales
-
-## Background:
-    Given I am at the Merchant Sales page
-
-## Scenario Outline: Enter Login Credentials
-    When I enter <username> and <passwrd> on the login page
-    Then the <message> displays
-
-##  Question - select the example(s) of a positive test scenario for <username> <password> and <message>?]
+?[Given a merchant login page, what is an example of postive test for entering a username and password]
 -[ ] myLogin, null, Invalid Passwprd
 -[x] myLogin, myPassword, Login Successfull
--[x] null, Password, Invalid Username
+-[ ] null, Password, Invalid Username
