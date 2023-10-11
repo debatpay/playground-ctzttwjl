@@ -30,9 +30,7 @@ namespace TechIo
 		} 
 		else
 		{
- 			// On success
-			if(ExistsInFile(@"/project/target/Exercises/UniverseStub.cs", "galaxies.Sum();")) 
-			{
+ 			
 				PrintMessage("My personal Yoda, you are. 🙏", "* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ");
 				PrintMessage("My personal Yoda, you are. 🙏", "           　★ °  ☆ ¸. ¸ 　★　 :.　 .   ");
 				PrintMessage("My personal Yoda, you are. 🙏", "__.-._     ° . .　　　　.　☾ ° 　. *   ¸ .");
@@ -40,12 +38,7 @@ namespace TechIo
 				PrintMessage("My personal Yoda, you are. 🙏", " /'.-c    　   * ●  ¸.　　°     ° 　¸.    ");
 				PrintMessage("My personal Yoda, you are. 🙏", " |  /T      　　°     ° 　¸.     ¸ .　　  ");
 				PrintMessage("My personal Yoda, you are. 🙏", "_)_/LI");
-			} else {
-				PrintMessage("Kudos 🌟", "Using Linq, your code could have been shorter. Try it!");
-				PrintMessage("Kudos 🌟", "");
-				PrintMessage("Kudos 🌟", "price and rate = (100.00, 5));");
-				PrintMessage("Kudos 🌟", "decimal totalAmount = 100 + 100*.05; // 105.00");
-			}	
+			
 		}
       	}
 
