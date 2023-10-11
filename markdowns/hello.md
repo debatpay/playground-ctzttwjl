@@ -5,4 +5,4 @@ Can you find the errors and fix the code before it's used by customers?
 
 
 # Hands-on Demo
-@[Golly, what is wrong with my sales tax calculator?]({"stubs": ["Exercises/SalesTaxCalculatorStub.cs"],"command": "TechIo.SalesTaxCalcilatorTests.VerifyTotalPrice"})
+@[Golly, what is wrong with my sales tax calculator?]({"stubs": ["Exercises/SalesTaxCalculatorStub.cs"],"command": "TechIo.SalesTaxCalculatorTests.VerifyTotalPrice"})
